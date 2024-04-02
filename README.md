@@ -14,4 +14,3 @@ This project shows a basic form where an email and name are requested, then the 
 ## Authors
 
 Daniel Ruiz - [Github](https://github.com/ruizdani301) - [linkedin](https://www.linkedin.com/in/daniel-ruiz)
-# send_emails
