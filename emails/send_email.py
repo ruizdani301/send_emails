@@ -20,7 +20,7 @@ def send_email(name, email) -> None:
     html_content = body
     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
     msg.attach_alternative(html_content, "text/html")
-    # msg.attach_file("resources/ORM.pdf")
+    msg.attach_file("resources/ORM.pdf")
     try:
         msg.send(fail_silently=False)
     except Exception as e:

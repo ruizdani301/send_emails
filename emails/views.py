@@ -19,7 +19,6 @@ class EmailsView(FormView):
     def form_valid(self, form):
         name = form.cleaned_data["name"]
         email = form.cleaned_data["email"]
-        #email = 'romeolukaku1@yopmail.com'
         try:
             Email.objects.create(name=name, email=email)
         except Exception as e:
